@@ -1,0 +1,62 @@
+    [
+        {
+            "id": 1,
+            "name": "Dr. María González",
+            "photo": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+            "position": "Directora del Laboratorio",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Especialista en neurociencias computacionales.",
+            "email": "maria.gonzalez@enes.unam.mx",
+            "phone": "+52 443 123 4567",
+            "location": "ENES Morelia, UNAM"
+        },
+        {
+            "id": 2,
+            "name": "Dr. Carlos Rodríguez",
+            "photo": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+            "position": "Investigador Senior",
+            "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. Experto en inteligencia artificial y machine learning aplicado a neurociencias.",
+            "email": "carlos.rodriguez@enes.unam.mx",
+            "phone": "+52 443 123 4568",
+            "location": "ENES Morelia, UNAM"
+        },
+        {
+            "id": 3,
+            "name": "Dra. Ana Martínez",
+            "photo": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+            "position": "Investigadora Postdoctoral",
+            "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore. Especializada en neuroimagen y análisis de datos cerebrales.",
+            "email": "ana.martinez@enes.unam.mx",
+            "phone": "+52 443 123 4569",
+            "location": "ENES Morelia, UNAM"
+        },
+        {
+            "id": 4,
+            "name": "Mtro. Luis Hernández",
+            "photo": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+            "position": "Estudiante de Doctorado",
+            "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim. Investigando interfaces cerebro-computadora.",
+            "email": "luis.hernandez@enes.unam.mx",
+            "phone": "+52 443 123 4570",
+            "location": "ENES Morelia, UNAM"
+        },
+        {
+            "id": 5,
+            "name": "Lic. Sofia López",
+            "photo": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+            "position": "Técnico de Laboratorio",
+            "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium. Responsable del mantenimiento de equipos y apoyo técnico.",
+            "email": "sofia.lopez@enes.unam.mx",
+            "phone": "+52 443 123 4571",
+            "location": "ENES Morelia, UNAM"
+        },
+        {
+            "id": 6,
+            "name": "Dr. Roberto Silva",
+            "photo": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+            "position": "Investigador Asociado",
+            "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit. Experto en modelado computacional de redes neuronales.",
+            "email": "roberto.silva@enes.unam.mx",
+            "phone": "+52 443 123 4572",
+            "location": "ENES Morelia, UNAM"
+        }
+    ]
