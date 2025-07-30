@@ -15,8 +15,7 @@ function App() {
       <ENES />
       <Eventos />
       <EquipoTrabajo />
-      <Footer />
-      <h2>Este es un test</h2>      
+      <Footer />  
     </div>
     
   );
