@@ -57,7 +57,6 @@ El sitio estará disponible en [http://localhost:3000](http://localhost:3000).
 
 - `npm start` — Inicia la aplicación en modo desarrollo.
 - `npm run build` — Genera una versión optimizada para producción.
-- `npm test` — Ejecuta los tests con Jest y React Testing Library.
 
 ## Dependencias Principales
 
