@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Mail, Phone, MapPin, ExternalLink } from 'lucide-react';
 import teamData from '../../../src/data/equipo.json';
-import { FotoFroy, FotoHector } from '../../assets/EquipoTrabajo';
+import { FotoFroy, FotoHector, FotoAtzimba } from '../../assets/EquipoTrabajo';
 
 const TeamSection = () => {
   const [flippedCards, setFlippedCards] = useState({});
@@ -10,6 +10,7 @@ const TeamSection = () => {
   const photoMap = {
     1: FotoFroy,
     2: FotoHector,
+    3: FotoAtzimba
   };
 
   // Datos dummy del equipo
