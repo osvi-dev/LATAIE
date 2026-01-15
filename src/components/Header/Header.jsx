@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Menu, X } from 'lucide-react';
-import logo from '../../assets/Header/logo_no_bg.png'; 
-import fondo from '../../assets/Header/global-connections.jpg';
+import logo from '../../assets/Header/logo_no_bg.png';
+import fondo from '../../assets/Header/ENES.jpg';
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -12,15 +12,15 @@ const Header = () => {
   return (
     <header className="w-full">
       {/* Imagen Superior */}
-      <div className="w-full h-64 bg-gradient-to-r from-blue-600 to-purple-700 relative overflow-hidden">
-        <img 
-          src={fondo} 
+      <div className="w-full h-72 bg-gradient-to-r from-blue-600 to-purple-700 relative overflow-hidden">
+        <img
+          src={fondo}
           alt="Fondo"
           className="w-full h-full object-cover opacity-80"
         />
         <div className="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center">
           <h1 className="text-white text-4xl md:text-6xl font-bold text-center px-4">
-            ENES Morelia
+            Laboratorio de Tecnologías Aplicadas a la Innovación Educativa
           </h1>
         </div>
       </div>
@@ -34,7 +34,7 @@ const Header = () => {
               <div className="flex-shrink-0">
                 <div className="flex items-center space-x-2">
                   <div>
-                    <img 
+                    <img
                       src={logo}
                       alt="Logo"
                       className="h-1/3 w-1/4 "
@@ -47,32 +47,26 @@ const Header = () => {
             {/* Desktop Menu */}
             <div className="hidden md:block font-header">
               <div className="ml-10 flex items-baseline space-x-8">
-                <a 
-                  href="#acerca" 
+                <a
+                  href="#acerca"
                   className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors duration-200 hover:bg-gray-100 rounded-md"
                 >
                   Acerca de
                 </a>
-                <a 
-                  href="#enes" 
+                <a
+                  href="#enes"
                   className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors duration-200 hover:bg-gray-100 rounded-md"
                 >
                   ENES Morelia
                 </a>
-                <a 
-                  href="#eventos" 
+                <a
+                  href="#eventos"
                   className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors duration-200 hover:bg-gray-100 rounded-md"
                 >
-                  Eventos
+                  Proyectos
                 </a>
-                <a 
-                  href="#publicaciones" 
-                  className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors duration-200 hover:bg-gray-100 rounded-md"
-                >
-                  Publicaciones
-                </a>
-                <a 
-                  href="#equipo" 
+                <a
+                  href="#equipo"
                   className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors duration-200 hover:bg-gray-100 rounded-md"
                 >
                   Equipo de trabajo

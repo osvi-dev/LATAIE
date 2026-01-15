@@ -1,11 +1,22 @@
 import React, { useState } from 'react';
 import { Mail, Phone, MapPin, ExternalLink } from 'lucide-react';
 import teamData from '../../../src/data/equipo.json';
+import { FotoFroy, FotoHector } from '../../assets/EquipoTrabajo';
+
 const TeamSection = () => {
   const [flippedCards, setFlippedCards] = useState({});
 
+  // Mapeo de fotos locales
+  const photoMap = {
+    1: FotoFroy,
+    2: FotoHector,
+  };
+
   // Datos dummy del equipo
-  const teamMembers = teamData
+  const teamMembers = teamData.map(member => ({
+    ...member,
+    photo: photoMap[member.id] || member.photo // Usa foto local si existe, sino la URL
+  }))
 
   const handleCardClick = (id) => {
     setFlippedCards(prev => ({
@@ -23,7 +34,7 @@ const TeamSection = () => {
             Equipo de Trabajo
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Conoce a los investigadores y profesionales que conforman nuestro equipo multidisciplinario
+            Conoce a los profesionales que conforman nuestro equipo multidisciplinario
           </p>
         </div>
 
@@ -53,9 +64,6 @@ const TeamSection = () => {
                     <h3 className="text-xl font-bold text-gray-800 mb-2">
                       {member.name}
                     </h3>
-                    <p className="text-blue-600 font-medium mb-4">
-                      {member.position}
-                    </p>
                     <p className="text-sm text-gray-500 bg-gray-50 px-3 py-1 rounded-full">
                       Click para más información
                     </p>
@@ -73,25 +81,13 @@ const TeamSection = () => {
                       </p>
                     </div>
                     
-                    <div className="space-y-3">
-                      <div className="flex items-center space-x-3 text-sm">
-                        <Mail className="w-4 h-4 text-blue-200" />
-                        <span className="text-blue-100">{member.email}</span>
-                      </div>
-                      <div className="flex items-center space-x-3 text-sm">
-                        <Phone className="w-4 h-4 text-blue-200" />
-                        <span className="text-blue-100">{member.phone}</span>
-                      </div>
-                      <div className="flex items-center space-x-3 text-sm">
+                    <div className="space-y-1">
+                      
+                      <div className="flex items-center space-x-2 text-sm">
                         <MapPin className="w-4 h-4 text-blue-200" />
                         <span className="text-blue-100">{member.location}</span>
                       </div>
                     </div>
-                    
-                    <button className="mt-4 w-full bg-white bg-opacity-20 hover:bg-opacity-30 backdrop-blur-sm text-white py-2 px-4 rounded-lg transition-all duration-300 flex items-center justify-center space-x-2">
-                      <span>Ver perfil completo</span>
-                      <ExternalLink className="w-4 h-4" />
-                    </button>
                   </div>
                 </div>
               </div>

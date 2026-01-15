@@ -1,62 +1,29 @@
     [
         {
             "id": 1,
-            "name": "Test 1",
-            "photo": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-            "position": "Esto es un test",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Especialista en neurociencias computacionales.",
-            "email": "maria.gonzalez@enes.unam.mx",
-            "phone": "+52 443 123 4567",
+            "name": "Froylan Hernández Rendón",
+            "description": "Es Ingeniero en sistemas computacionales, Maestro en tecnologías de información y Doctor en tecnología educativa. Trabaja como profesor y técnico académico, responsable del laboratorio de tecnologías aplicadas a la innovación educativa (LATAIE) de la ENES Morelia, UNAM. Sus líneas de investigación son la tecnología educativa y la inclusión educativa con tecnologías.",
             "location": "ENES Morelia, UNAM"
         },
         {
             "id": 2,
-            "name": "Dr. Carlos Rodríguez",
-            "photo": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-            "position": "Investigador Senior",
-            "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. Experto en inteligencia artificial y machine learning aplicado a neurociencias.",
-            "email": "carlos.rodriguez@enes.unam.mx",
-            "phone": "+52 443 123 4568",
+            "name": "Héctor Alonso Guzmán Gutiérrez",
+            "description": "Héctor es profesor y técnico académico en la ENES UNAM Morelia dedicado a la tecnología. Usualmente imparte las clases de Redes y Telecomunicaciones y la de Sistemas Inteligentes para la Toma de Decisiones. Héctor también es un apasionado de su familia. Estudió su doctorado en el Posgrado en Ciencia e Ingeniería de la Computación de la UNAM y previamente su licenciatura en el Instituto Tecnológico de Morelia.",
             "location": "ENES Morelia, UNAM"
         },
         {
             "id": 3,
-            "name": "Dra. Ana Martínez",
+            "name": "Atzimba G. López Maldonado",
             "photo": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-            "position": "Investigadora Postdoctoral",
-            "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore. Especializada en neuroimagen y análisis de datos cerebrales.",
-            "email": "ana.martinez@enes.unam.mx",
-            "phone": "+52 443 123 4569",
+            "description": "La Mtra. López-Maldonado es especialista en el desarrollo de software, manejo de bases de datos y seguridad informática. Se desempeña como Técnica Académica en el Instituto de Investigaciones en Ecosistemas y Sustenabilidad de la UNAM. Además, es instructora internacional certificada en seguridad informática y posee diversas acreditaciones internacionales en ciberseguridad, redes y gestión de servicios de TI, entre ellas certificaciones de EC-Council, Cisco, Microsoft, Google e ITIL.",
             "location": "ENES Morelia, UNAM"
         },
         {
             "id": 4,
-            "name": "Mtro. Luis Hernández",
+            "name": "Javier Huerta Salto",
             "photo": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-            "position": "Estudiante de Doctorado",
-            "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim. Investigando interfaces cerebro-computadora.",
-            "email": "luis.hernandez@enes.unam.mx",
-            "phone": "+52 443 123 4570",
-            "location": "ENES Morelia, UNAM"
-        },
-        {
-            "id": 5,
-            "name": "Lic. Sofia López",
-            "photo": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-            "position": "Técnico de Laboratorio",
-            "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium. Responsable del mantenimiento de equipos y apoyo técnico.",
-            "email": "sofia.lopez@enes.unam.mx",
-            "phone": "+52 443 123 4571",
-            "location": "ENES Morelia, UNAM"
-        },
-        {
-            "id": 6,
-            "name": "Dr. Roberto Silva",
-            "photo": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-            "position": "Investigador Asociado",
-            "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit. Experto en modelado computacional de redes neuronales.",
-            "email": "roberto.silva@enes.unam.mx",
-            "phone": "+52 443 123 4572",
+            "description": "Es Ingeniero en Sistemas Computacionales por el Instituto Tecnológico de Morelia, con especialidad en Redes y Sistemas Distribuidos. Se desempeña como Técnico Académico Asociado de Tiempo Completo en la Escuela Nacional de Estudios Superiores (ENES), Unidad Morelia, de la UNAM. Cuenta con estudios de posgrado en Administración y actualmente cursa la Maestría en Tecnología Educativa. Su trabajo se centra en el soporte y gestión de infraestructura tecnológica, el desarrollo de soluciones digitales y la docencia en áreas de programación creativa, lenguajes hipermedia y tecnologías aplicadas al diseño y la educación.",
             "location": "ENES Morelia, UNAM"
         }
+        
     ]
