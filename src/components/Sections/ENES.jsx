@@ -75,7 +75,7 @@ const Enes = () => {
           <div className="p-6 rounded-2xl border-l-4 border-blue-600 bg-white shadow">
             <h4 className="text-lg font-semibold text-gray-800 mb-2">Nuestra Misión</h4>
             <p className="text-sm text-gray-600 leading-relaxed">
-              Formar profesionales éticos y competentes que contribuyan al desarrollo sustentable mediante la investigación y el conocimiento.
+              Desarrollar y promover el uso reflexivo de tecnologías innovadoras para transformar y mejorar los procesos educativos, fomentando una educación inclusiva, personalizada y de alta calidad que prepare a los estudiantes para los desafíos del futuro.
             </p>
           </div>
 
